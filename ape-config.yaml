@@ -5,6 +5,3 @@ plugins:
   - name: vyper
 vyper:
   evm_version: cancun
-compile:
-  exclude:
-    - r"(?!.*_mock\.vy$)"
